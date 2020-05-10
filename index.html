@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!--Favicon Icon for the webpage-->
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!--Link for google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap" rel="stylesheet">
+  
+  <!--Link for bootstrap and its required javascript references-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <!--Custom extern CSS styles-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <!-- Title and sub headings -->
+    <h1 class="motto_1">Reliable, efficient delivery</h1>
+    <h1 class="motto_2">Powered by Technology</h1>
+    <p>Our Artificial Intelligence powered tools use millions of project data <br> points to ensure that your project is successful</p>
+    
+    <!--container of all features-->
+    <div class="container">
+
+      <!-- Feature div for each of the features -->
+      <div class="row">
+    
+        <div class="col-lg-4 col-md-12 colpos">
+          <div class="card supervisor elepos">   <!--Supervisor feature card-->
+            <div class="card-body">
+              <h5 class="featurebox">Supervisor</h5>
+              <p class="featurebox featuretext">Monitors activity to identify project roadblocks</p>
+              <img class="featimg" src="images/icon-supervisor.svg" alt="Supervisor Icon">
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-12">
+          <div class="card teambuilder">          <!--Team Builder feature card-->
+            <div class="card-body">
+              <h5 class="featurebox">Team Builder</h5>
+              <p class="featurebox featuretext">Scans our talent network to create the optimal team for your project</p>
+              <img class="featimg" src="images/icon-team-builder.svg" alt="Supervisor Icon">
+            </div>
+          </div>
+          <div class="card karma">                <!--Karma feature card-->
+            <div class="card-body">
+              <h5 class="featurebox">Karma</h5>
+              <p class="featurebox featuretext">Regularly evaluates our talent to ensure quality</p>
+              <img class="featimg" src="images/icon-karma.svg" alt="Supervisor Icon">
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-12 colpos">
+          <div class="card calc elepos">          <!--Calculator feature card-->
+            <div class="card-body">
+              <h5 class="featurebox">Calculator</h5>
+              <p class="featurebox featuretext">Uses data from past projects to provide better delivery estimates</p>
+              <img class="featimg" src="images/icon-calculator.svg" alt="Supervisor Icon">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+     
+</body>
+</html>

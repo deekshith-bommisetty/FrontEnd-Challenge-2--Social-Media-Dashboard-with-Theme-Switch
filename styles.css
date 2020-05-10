@@ -1,0 +1,119 @@
+/* General overall CSS styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.main {
+    padding-top: 3rem;  /* Top padding for the entire page */
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    font-weight: 200;
+}
+
+/* Heading and Sub heading styles*/
+.motto_1{
+    font-weight: 200;
+    margin-bottom: 0;
+
+}
+.motto_2 {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Removing default padding for container class and row class of bootstrap */
+.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.row {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Feature  card box styling */
+.card {
+    width: 18rem;
+    padding: 0;
+    border: none;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.featurebox {
+    text-align: left;
+}
+.featimg{                /*image inside the feature card*/
+    margin-left: 11rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.featuretext {            /*Text inside the feature card*/
+    font-size: 12px;
+}
+
+/* Feature boxes border colors */
+.supervisor {
+    border-top: 2px solid hsl(180, 62%, 55%);
+}
+.calc {
+    border-top: 2px solid  hsl(212, 86%, 64%);
+}
+.teambuilder {
+    border-top: 2px solid hsl(34, 97%, 64%);
+    margin-bottom: 3rem;
+   
+
+}
+.karma {
+    border-top: 2px solid hsl(0, 78%, 62%);
+    margin-top: 3rem;
+   
+}
+
+/* Grid styling for the elements in the columns */
+.colpos{
+    position: relative;
+}
+
+.elepos{
+    
+    top: 8rem;   
+}
+/* Media query to adjust elements upon resizing  */
+@media (max-width:991px) {
+    .colpos{
+        position: static;
+    }
+    .elepos{
+        position: static;
+    }
+    .teambuilder {
+        margin-bottom: 2.5rem;
+
+    }
+    .karma {
+        margin-top: 2.5rem;
+
+    }
+}
+
