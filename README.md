@@ -40,4 +40,4 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 
 ## Hosted link of the project
 
-Please click here : 
+Please click here :  https://deekshith-bommisetty.github.io/FrontEnd-Challenge-2--Social-Media-Dashboard-with-Theme-Switch/
