@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!-- Website Favicon-->
+  <title>Frontend Mentor | Social Media Dashboard</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">   <!--Google Fonts-->
+
+  <!--Bootstrap and its required Javascript and custom stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Title section-->
+  <div id="titlesec"" class="darktheme">
+    <div class="container" id="titlediv">
+      <h2 class="maintitle darktheme">Social Media Dashboard</h2>
+      <p class="bltext totfoll">Total Followers: 23,004</p>
+      <hr id="divide">
+      <div class="custom-control custom-switch toggle">
+        <input type="checkbox" class="custom-control-input" id="themeswitch">
+        <label class="custom-control-label totfoll bltext" for="themeswitch">Dark Mode</label>
+      </div>
+    </div>
+  </div>
+  <!--Card decks Container-->
+  <div id="bodysec" class="darktheme">
+    <div class="container" id="bodydiv">
+      <div class="row">                               <!-- Row of first deck of cards-->
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme facebook">
+            <div class="card-body">
+              <img src="images/icon-facebook.svg" alt="facebook icon">
+              <span class="bltext">@nathanf</span>
+              <p class="count darktheme">1987</p>
+              <p class="bltext follow">FOLLOWERS</p>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">12 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme twitter">
+            <div class="card-body">
+              <img src="images/icon-twitter.svg" alt="twitter icon">
+              <span class="bltext">@nathanf</span>
+              <p class="count darktheme">1044</p>
+              <p class="bltext follow">FOLLOWERS</p>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">99 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme instagram">
+            <div class="card-body">
+              <img src="images/icon-instagram.svg" alt="instagram icon">
+              <span class="bltext">@realNathanF</span>
+              <p class="count darktheme">11k</p>
+              <p class="bltext follow">FOLLOWERS</p>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">109 Today</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme youtube">
+            <div class="card-body">
+              <img src="images/icon-youtube.svg" alt="youtube icon">
+              <span class="bltext">@Nathan F</span>
+              <p class="count darktheme">8239</p>
+              <p class="bltext follow">FOLLOWERS</p>
+              <img src="images/icon-down.svg" alt="decrease">
+              <span class="increment" style="color: red;">144 Today</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h4 class="maintitle darktheme head2">Overview - Today</h4>
+
+      <div class="row">                                     <!--Row of second deck of cards-->
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Page Views<span>
+                <img src="images/icon-facebook.svg" style="float: right;" alt="facebook icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">87</span>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">3%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Likes<span>
+                <img src="images/icon-facebook.svg" style="float: right;" alt="facebook icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">52</span>
+              <img src="images/icon-down.svg" alt="decrease">
+              <span class="increment" style="color: red;">2%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Page Likes<span>
+                <img src="images/icon-instagram.svg" style="float: right;" alt="instagram icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">5462</span>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">2247%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Profile Views<span>
+                <img src="images/icon-instagram.svg" style="float: right;" alt="instagram icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">52k</span>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">1375%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Retweets<span>
+                <img src="images/icon-twitter.svg" style="float: right;" alt="twitter icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">117</span>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">303%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Likes<span>
+                <img src="images/icon-twitter.svg" style="float: right;" alt="twitter icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">507</span>
+              <img src="images/icon-up.svg" alt="increase">
+              <span class="increment">553%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Likes<span>
+                <img src="images/icon-youtube.svg" style="float: right;" alt="youtube icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">107</span>
+              <img src="images/icon-down.svg" alt="decrease">
+              <span class="increment" style="color: red;">19%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card darktheme">
+            <div class="card-body">
+             <div class="top">
+              <span class="span_col darktheme">Total Views<span>
+                <img src="images/icon-youtube.svg" style="float: right;" alt="youtube icon">
+             </div>
+             <div class="bottom">
+              <span style="float: left;" class="span_col darktheme">1407</span>
+              <img src="images/icon-down.svg" alt="decrease">
+              <span class="increment" style="color: red;">12%</span>
+             </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
