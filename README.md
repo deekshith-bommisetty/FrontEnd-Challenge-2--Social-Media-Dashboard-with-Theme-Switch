@@ -6,7 +6,7 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**Social Media Dashboard** challenge involves using HTML, CSS and JaveScript for layout and styling. Grid Layout and positioning concepts were used to accomplish the layouting requirement and JaveScript was used to add the theme switching feature. 
+**Social Media Dashboard** challenge is a static responsive webiste developed using using HTML, CSS and JaveScript for layout and styling. Grid Layout and positioning concepts were used to accomplish the layouting requirement and JaveScript was used to add the theme switching feature. The challenge involves both desktop and mobile version and this site is based on Mobile First. 
 
 <img src="./design/desktop-preview.jpg" alt="Desktop Preview" width="100%">
 <p align="left">
